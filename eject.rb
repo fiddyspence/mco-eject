@@ -5,11 +5,11 @@ module MCollective
   module Agent
     class Eject<RPC::Agent
       metadata :name        => "Eject agent",
-               :description => "Ask a puppetmaster to compile a catalog via mcollective",
+               :description => "Eject the optical drive tray",
                :author      => "fiddyspence",
                :license     => "ASL2",
                :version     => "1.0",
-               :url         => "https://github.com/fiddyspence/mco-catalogcompile",
+               :url         => "https://github.com/fiddyspence/mco-eject",
                :timeout     => 180
 
       action "eject" do
